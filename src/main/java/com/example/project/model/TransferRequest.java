@@ -8,7 +8,7 @@ import lombok.Data;
 public class TransferRequest {
     private String cardFromNumber;
     private String cardFromValidTill;
-    private int cardFromCVV;
+    private String cardFromCVV;
     private String cardToNumber;
     private Amount amount;
 }

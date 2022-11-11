@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public class Card {
     private String cardFromNumber;
     private String cardFromValidTill;
-    private int cardFromCVV;
+    private String cardFromCVV;
     private String cardToNumber;
 
     private Amount amount;
